@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <ul id="umschalter">
+    <!-- onclick-fn here ==> second option (one fn only for all 4 colors)  -->
+    <li onclick="changeColors('gray')" id="grauTaste"></li>
+    <li onclick="changeColors('white')" id="weissTaste"></li>
+    <li onclick="changeColors('blue')" id="blauTaste"></li>
+    <li onclick="changeColors('yellow')" id="gelbTaste"></li>
+  </ul>
+    
+  <div id="txt">
+    <h1>Farbschema Umschalter</h1>
+    <p>versuche auf eine der obigen Farboptionen zu klicken, um die Farben dieser Seite zu ändern</p>
+  </div>
+  
+  <script src="./main.js"></script>
+</body>
+</html>
